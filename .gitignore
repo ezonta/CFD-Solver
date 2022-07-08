@@ -1,32 +1,17 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*_Output
+*.vtk
 *.exe
-*.out
-*.app
+*~
+*.log
+build
+.vscode
+*.DS_STORE
+CMakeFiles
+Makefile
+doxygen_doc
+compile_commands.json
+.clangd
+test
+test.cpp
+example_cases_old
+.idea
